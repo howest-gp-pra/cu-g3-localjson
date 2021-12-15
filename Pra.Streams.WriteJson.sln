@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pra.Streams.WriteJson.Wpf", "Pra.Streams.WriteJson.Wpf\Pra.Streams.WriteJson.Wpf.csproj", "{6B55253C-BA03-4FAB-AFBE-DA1D82F827BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pra.Streams.WriteJson.Core", "Pra.Streams.WriteJson.Core\Pra.Streams.WriteJson.Core.csproj", "{7A737F65-D5E8-46D5-9038-BFD5266018AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B55253C-BA03-4FAB-AFBE-DA1D82F827BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B55253C-BA03-4FAB-AFBE-DA1D82F827BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B55253C-BA03-4FAB-AFBE-DA1D82F827BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B55253C-BA03-4FAB-AFBE-DA1D82F827BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A737F65-D5E8-46D5-9038-BFD5266018AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A737F65-D5E8-46D5-9038-BFD5266018AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A737F65-D5E8-46D5-9038-BFD5266018AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A737F65-D5E8-46D5-9038-BFD5266018AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2ADA0AE-C7C7-41F8-969A-53EA7740DFF8}
+	EndGlobalSection
+EndGlobal

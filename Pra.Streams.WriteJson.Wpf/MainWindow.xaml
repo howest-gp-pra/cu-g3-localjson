@@ -1,0 +1,24 @@
+﻿<Window x:Class="Pra.Streams.WriteJson.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.Streams.WriteJson.Wpf"
+        mc:Ignorable="d"
+        Title="Studentenrollment : JSon exercise" WindowStartupLocation="CenterScreen"
+        WindowStyle="ToolWindow"
+        Height="457" Width="800" Loaded="Window_Loaded" Closing="Window_Closing" >
+    <Grid>
+        <ListBox x:Name="lstStudents" BorderThickness="3" BorderBrush="ForestGreen" HorizontalAlignment="Left" Height="353" Margin="30,53,0,0" VerticalAlignment="Top" Width="203" SelectionChanged="LstStudents_SelectionChanged"/>
+        <TextBlock x:Name="tblStudentInfo" TextAlignment="Center" FontWeight="Bold" Background="OldLace" HorizontalAlignment="Left" Height="80" Margin="267,53,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <ListBox x:Name="lstAvailableCourses" BorderThickness="3" BorderBrush="Silver" HorizontalAlignment="Left" Height="226" Margin="559,181,0,0" VerticalAlignment="Top" Width="222"/>
+        <ListBox x:Name="lstEnrollments" BorderThickness="3" BorderBrush="SteelBlue" HorizontalAlignment="Left" Height="228" Margin="266,178,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button x:Name="btnEnroll" ToolTip="Enroll" Content="&lt;" HorizontalAlignment="Left" Height="34" FontSize="16" FontWeight="Bold" Background="ForestGreen" Foreground="White" Margin="503,221,0,0" VerticalAlignment="Top" Width="41" Click="BtnEnroll_Click"/>
+        <Button x:Name="btnUnEnroll" FontSize="16" FontWeight="Bold" Background="Tomato" Foreground="White" Content="&gt;" ToolTip="Unenroll" HorizontalAlignment="Left" Height="34" Margin="503,263,0,0" VerticalAlignment="Top" Width="41" Click="btnUnEnroll_Click"/>
+        <Label Content="Available students" FontSize="12pt" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="ForestGreen" Foreground="White" HorizontalAlignment="Left" Height="38" Margin="29,15,0,0" VerticalAlignment="Top" Width="204"/>
+        <Label Content="Enrolled for" FontSize="12pt" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="SteelBlue" Foreground="White" HorizontalAlignment="Left" Height="38" Margin="266,143,0,0" VerticalAlignment="Top" Width="222"/>
+        <Label Content="Student info" FontSize="12pt" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="OldLace" Foreground="SteelBlue" HorizontalAlignment="Left" Height="38" Margin="267,16,0,0" VerticalAlignment="Top" Width="220"/>
+        <Label Content="Available courses" FontSize="12pt" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Silver" Foreground="White" HorizontalAlignment="Left" Height="38" Margin="559,143,0,0" VerticalAlignment="Top" Width="222"/>
+
+    </Grid>
+</Window>
